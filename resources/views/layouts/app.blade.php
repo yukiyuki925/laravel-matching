@@ -82,7 +82,8 @@
                                     @endif
                                 @else
                                     <li>
-                                        <a class="text-[#c0c0c0] text-[24px] inline-block float-right relative">
+                                        <a class="text-[#c0c0c0] text-[24px] inline-block float-right relative"
+                                            href="{{ route('matches.index') }}">
                                             <i class="fa fa-comments" aria-hidden="true"></i>
                                         </a>
                                     </li>
